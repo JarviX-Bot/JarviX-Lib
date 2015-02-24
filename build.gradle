@@ -1,9 +1,15 @@
 apply plugin: 'java'
+apply plugin: 'idea'
+apply plugin: 'eclipse'
 
 repositories {
-    
+    mavenCentral()
 }
 
 dependencies {
-   
+   compile 'com.google.gauva:guava:18.0'
+	compile 'org.pircbotx:pircbotx:2.0.1'
+	compile 'com.google.code.gson:gson:2.3.1'
+	compile 'org.slf4j:slf4j-simple:1.7.5'
+	compile 'org.slf4j:log4j-over-slf4j:1.7.7'
 }
