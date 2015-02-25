@@ -7,9 +7,10 @@ repositories {
 }
 
 dependencies {
-   compile 'com.google.gauva:guava:18.0'
+	compile 'com.google.gauva:guava:18.0'
 	compile 'org.pircbotx:pircbotx:2.0.1'
 	compile 'com.google.code.gson:gson:2.3.1'
 	compile 'org.slf4j:slf4j-simple:1.7.5'
 	compile 'org.slf4j:log4j-over-slf4j:1.7.7'
+	compile 'net.sf.jopt-simple:jopt-simple:4.8'
 }
